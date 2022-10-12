@@ -1,0 +1,148 @@
+html {
+    background-image: url(../img/background-img.jpeg);
+    padding-left: 80px;
+    color: #fff;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+
+header {
+    padding-top: 50px;
+    display: flex;
+}
+
+header>h1 {
+    padding: 5px 15px 2px 2px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo>h1 {
+    color: rgb(89, 213, 120);
+    padding-top: 0px;
+    font-size: 20px;
+}
+.bitc   {
+    font-size: 25px;
+}
+.logo-img {
+    width: 70px;
+    height: 60px;
+}
+
+.menubar {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.menubar>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 100px;
+}
+
+.create-account {
+    padding-top: 50px;
+}
+
+.free-start {
+    font-size: 18px;
+    color: grey;
+}
+
+.create-new-account {
+    font-size: 30px;
+}
+
+.already-mem {
+    text-decoration: none;
+    color: grey;
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(89, 213, 120);
+    font-weight: bold;
+
+}
+
+form {
+    padding-top: 20px;
+}
+
+.firstname {
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.lastname {
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.email {
+    padding-top: 15px;
+}
+
+.input-email {
+    width: 355px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.5;
+    padding-left: 20px;
+}
+
+.password {
+    padding-top: 15px;
+}
+
+.input-password {
+    width: 355px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.5;
+    padding-left: 20px;
+}
+
+.btn {
+    display: flex;
+}
+
+.guest-btn {
+    padding-top: 30px;
+    opacity: 0.4;
+    padding-left: 10px;
+}
+
+.gue-btn {
+    border-radius: 20px;
+    height: 45px;
+    color: rgb(117, 243, 54);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-account-btn {
+    padding-top: 30px;
+    padding-left: 50px;
+
+}
+
+.cre-acc-btn {
+    border-radius: 20px;
+    height: 45px;
+    background-color: rgb(89, 213, 120);
+    color: rgb(82, 79, 79);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
